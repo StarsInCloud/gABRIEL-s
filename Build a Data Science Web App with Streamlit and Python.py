@@ -1,2 +1,2 @@
 import streamlit as st
-import panda
+import pandas as pd
