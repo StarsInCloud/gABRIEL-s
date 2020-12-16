@@ -5,3 +5,4 @@ import pydeck as pdk
 import plotly.express as px
 
 DATE_TIME = "date/time"
+DATA_URL
