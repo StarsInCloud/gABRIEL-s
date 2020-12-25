@@ -6,4 +6,4 @@ import plotly.express as px
 
 DATE_TIME = "date/time"
 DATA_URL = (
-    "/path/to/Motor_Vehicle_Collis
+    "/path/to/Motor_Vehicle_Collision
