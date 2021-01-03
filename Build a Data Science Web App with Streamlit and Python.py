@@ -9,4 +9,4 @@ DATA_URL = (
     "/path/to/Motor_Vehicle_Collisions_-_Crashes.csv"
 )
 
-st.title("Motor Vehi
+st.title("Motor Vehicl
