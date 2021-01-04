@@ -9,4 +9,4 @@ DATA_URL = (
     "/path/to/Motor_Vehicle_Collisions_-_Crashes.csv"
 )
 
-st.title("Motor Vehicle Collisions in New Yor
+st.title("Motor Vehicle Collisions in New York 
