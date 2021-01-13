@@ -10,4 +10,4 @@ DATA_URL = (
 )
 
 st.title("Motor Vehicle Collisions in New York City")
-st.markdown("This application is a Streaml
+st.markdown("This application is a Streamlit 
