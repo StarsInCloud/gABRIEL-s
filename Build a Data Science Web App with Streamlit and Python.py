@@ -14,4 +14,5 @@ st.markdown("This application is a Streamlit dashboard that can be used "
             "to analyze motor vehicle collisions in NYC 🗽💥🚗")
 
 
-@st.cache(persist=True
+@st.cache(persist=True)
+de
