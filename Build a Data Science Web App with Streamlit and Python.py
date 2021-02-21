@@ -15,4 +15,4 @@ st.markdown("This application is a Streamlit dashboard that can be used "
 
 
 @st.cache(persist=True)
-def load_data(n
+def load_data(nro
