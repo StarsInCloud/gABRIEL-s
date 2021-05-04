@@ -20,4 +20,5 @@ def load_data(nrows):
     data.dropna(subset=['LATITUDE', 'LONGITUDE'], inplace=True)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis="columns", inplace=True)
-    data.rename(columns={"crash_date_crash_time": "date/time"}, inplace=True
+    data.rename(columns={"crash_date_crash_time": "date/time"}, inplace=True)
+    #d
