@@ -24,4 +24,4 @@ def load_data(nrows):
     #data = data[['date/time', 'latitude', 'longitude']]
     return data
 
-data = load_
+data = load_data(
