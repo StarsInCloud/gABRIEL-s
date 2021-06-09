@@ -25,4 +25,4 @@ def load_data(nrows):
     return data
 
 data = load_data(15000)
-data[['latitu
+data[['latitude','
