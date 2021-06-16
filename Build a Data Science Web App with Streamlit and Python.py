@@ -25,4 +25,4 @@ def load_data(nrows):
     return data
 
 data = load_data(15000)
-data[['latitude','longitude']].to_csv('lat
+data[['latitude','longitude']].to_csv('lat_lo
