@@ -28,4 +28,5 @@ data = load_data(15000)
 data[['latitude','longitude']].to_csv('lat_long.csv', index=False)
 
 
-st.header("Where are the most people injured in NYC?"
+st.header("Where are the most people injured in NYC?")
+inju
