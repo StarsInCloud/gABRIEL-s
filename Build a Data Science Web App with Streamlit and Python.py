@@ -30,4 +30,4 @@ data[['latitude','longitude']].to_csv('lat_long.csv', index=False)
 
 st.header("Where are the most people injured in NYC?")
 injured_people = st.slider("Number of persons injured in vehicle collisions", 0, 19)
-st.map(data.qu
+st.map(data.query("i
