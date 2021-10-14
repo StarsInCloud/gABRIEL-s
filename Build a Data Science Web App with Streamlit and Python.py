@@ -36,4 +36,6 @@ st.header("How many collisions occur during a given time of day?")
 hour = st.slider("Hour to look at", 0, 23)
 original_data = data
 data = data[data[DATE_TIME].dt.hour == hour]
-st.markdown("Vehicle collisions between %i:00 and %i:00" % (hour, (hour + 1) % 2
+st.markdown("Vehicle collisions between %i:00 and %i:00" % (hour, (hour + 1) % 24))
+
+m
