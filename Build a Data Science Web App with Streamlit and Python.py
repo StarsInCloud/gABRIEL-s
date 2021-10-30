@@ -39,3 +39,4 @@ data = data[data[DATE_TIME].dt.hour == hour]
 st.markdown("Vehicle collisions between %i:00 and %i:00" % (hour, (hour + 1) % 24))
 
 midpoint = (np.average(data["latitude"]), np.average(data["longitude"]))
+st.
