@@ -41,4 +41,4 @@ st.markdown("Vehicle collisions between %i:00 and %i:00" % (hour, (hour + 1) % 2
 midpoint = (np.average(data["latitude"]), np.average(data["longitude"]))
 st.write(pdk.Deck(
     map_style="mapbox://styles/mapbox/light-v9",
-    initial_view_sta
+    initial_view_state={
