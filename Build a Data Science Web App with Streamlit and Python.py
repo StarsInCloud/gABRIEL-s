@@ -42,4 +42,5 @@ midpoint = (np.average(data["latitude"]), np.average(data["longitude"]))
 st.write(pdk.Deck(
     map_style="mapbox://styles/mapbox/light-v9",
     initial_view_state={
-        "latitude": midpoint[
+        "latitude": midpoint[0],
+ 
