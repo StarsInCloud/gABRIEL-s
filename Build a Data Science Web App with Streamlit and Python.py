@@ -44,4 +44,4 @@ st.write(pdk.Deck(
     initial_view_state={
         "latitude": midpoint[0],
         "longitude": midpoint[1],
-        "zoom":
+        "zoom": 11,
