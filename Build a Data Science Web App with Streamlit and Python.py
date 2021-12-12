@@ -46,4 +46,4 @@ st.write(pdk.Deck(
         "longitude": midpoint[1],
         "zoom": 11,
         "pitch": 50,
-  
+    },
