@@ -49,4 +49,4 @@ st.write(pdk.Deck(
     },
     layers=[
         pdk.Layer(
-        "Hexago
+        "HexagonLayer"
