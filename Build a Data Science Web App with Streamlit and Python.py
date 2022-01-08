@@ -50,4 +50,5 @@ st.write(pdk.Deck(
     layers=[
         pdk.Layer(
         "HexagonLayer",
-        data=data[['date/time', 'latitude', 'longitude
+        data=data[['date/time', 'latitude', 'longitude']],
+ 
