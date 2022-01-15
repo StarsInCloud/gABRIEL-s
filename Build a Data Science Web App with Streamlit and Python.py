@@ -52,4 +52,4 @@ st.write(pdk.Deck(
         "HexagonLayer",
         data=data[['date/time', 'latitude', 'longitude']],
         get_position=["longitude", "latitude"],
-        auto_high
+        auto_highli
