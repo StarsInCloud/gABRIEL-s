@@ -53,4 +53,5 @@ st.write(pdk.Deck(
         data=data[['date/time', 'latitude', 'longitude']],
         get_position=["longitude", "latitude"],
         auto_highlight=True,
-        radius
+        radius=100,
+  
