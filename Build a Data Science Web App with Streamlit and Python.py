@@ -55,4 +55,4 @@ st.write(pdk.Deck(
         auto_highlight=True,
         radius=100,
         extruded=True,
-        picka
+        pickable=
