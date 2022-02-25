@@ -62,4 +62,4 @@ st.write(pdk.Deck(
     ],
 ))
 if st.checkbox("Show raw data", False):
-    st.subheader("Raw data by min
+    st.subheader("Raw data by minute
