@@ -62,4 +62,5 @@ st.write(pdk.Deck(
     ],
 ))
 if st.checkbox("Show raw data", False):
-    st.subheader("Raw data by minute between %i:00 and %i:00" % (hour, (hour + 1)
+    st.subheader("Raw data by minute between %i:00 and %i:00" % (hour, (hour + 1) % 24))
+ 
