@@ -67,4 +67,4 @@ if st.checkbox("Show raw data", False):
 
 st.subheader("Breakdown by minute between %i:00 and %i:00" % (hour, (hour + 1) % 24))
 filtered = data[
-    (data[D
+    (data[DATE_
