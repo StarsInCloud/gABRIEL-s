@@ -70,4 +70,4 @@ filtered = data[
     (data[DATE_TIME].dt.hour >= hour) & (data[DATE_TIME].dt.hour < (hour + 1))
 ]
 hist = np.histogram(filtered[DATE_TIME].dt.minute, bins=60, range=(0, 60))[0]
-chart_data = pd.DataFrame({"minute": range(6
+chart_data = pd.DataFrame({"minute": range(60), 
