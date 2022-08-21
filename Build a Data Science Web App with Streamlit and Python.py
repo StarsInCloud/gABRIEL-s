@@ -73,4 +73,4 @@ hist = np.histogram(filtered[DATE_TIME].dt.minute, bins=60, range=(0, 60))[0]
 chart_data = pd.DataFrame({"minute": range(60), "crashes": hist})
 
 fig = px.bar(chart_data, x='minute', y='crashes', hover_data=['minute', 'crashes'], height=400)
-st.writ
+st.write(fi
