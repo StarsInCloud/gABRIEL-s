@@ -75,4 +75,4 @@ chart_data = pd.DataFrame({"minute": range(60), "crashes": hist})
 fig = px.bar(chart_data, x='minute', y='crashes', hover_data=['minute', 'crashes'], height=400)
 st.write(fig)
 
-st.header("Top 5 dangerous streets by affected clas
+st.header("Top 5 dangerous streets by affected class")
