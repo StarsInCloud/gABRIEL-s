@@ -76,4 +76,4 @@ fig = px.bar(chart_data, x='minute', y='crashes', hover_data=['minute', 'crashes
 st.write(fig)
 
 st.header("Top 5 dangerous streets by affected class")
-select = st.selectbox('Affected class', ['Pedestrians', 'Cyclists', 'M
+select = st.selectbox('Affected class', ['Pedestrians', 'Cyclists', 'Motori
