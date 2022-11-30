@@ -78,4 +78,5 @@ st.write(fig)
 st.header("Top 5 dangerous streets by affected class")
 select = st.selectbox('Affected class', ['Pedestrians', 'Cyclists', 'Motorists'])
 
-if select == 'Pedestrians'
+if select == 'Pedestrians':
+   
