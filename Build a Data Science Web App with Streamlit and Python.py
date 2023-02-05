@@ -79,4 +79,4 @@ st.header("Top 5 dangerous streets by affected class")
 select = st.selectbox('Affected class', ['Pedestrians', 'Cyclists', 'Motorists'])
 
 if select == 'Pedestrians':
-    st.write(original_data.query("injured_pedestrians >= 1")[["on_street_name", "injured_pedestri
+    st.write(original_data.query("injured_pedestrians >= 1")[["on_street_name", "injured_pedestrians"
