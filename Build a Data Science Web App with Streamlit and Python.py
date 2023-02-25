@@ -81,3 +81,4 @@ select = st.selectbox('Affected class', ['Pedestrians', 'Cyclists', 'Motorists']
 if select == 'Pedestrians':
     st.write(original_data.query("injured_pedestrians >= 1")[["on_street_name", "injured_pedestrians"]].sort_values(by=['injured_pedestrians'], ascending=False).dropna(how="any")[:5])
 
+elif se
