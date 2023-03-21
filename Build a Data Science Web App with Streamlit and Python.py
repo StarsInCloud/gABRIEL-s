@@ -85,4 +85,4 @@ elif select == 'Cyclists':
     st.write(original_data.query("injured_cyclists >= 1")[["on_street_name", "injured_cyclists"]].sort_values(by=['injured_cyclists'], ascending=False).dropna(how="any")[:5])
 
 else:
-    st.write(original_data.query("inj
+    st.write(original_data.query("injur
